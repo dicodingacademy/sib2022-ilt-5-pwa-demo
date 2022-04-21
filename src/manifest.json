@@ -1,0 +1,38 @@
+{
+  "id": "/",
+  "name": "Hunger Apps",
+  "short_name": "Hunger Apps",
+  "start_url": "/",
+  "description": "Free Restaurant Catalogue for You",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#606e6b",
+  "icons": [
+    {
+      "src": "images/manifest-icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "images/manifest-icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "images/manifest-icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/manifest-icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/manifest-icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
