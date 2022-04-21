@@ -79,12 +79,13 @@ self.addEventListener('fetch', (event) => {
     const cache = await caches.open(cacheName);
     const cachedResponse = await cache.match(e.request);
 
-    // return cachedResponse if it exists
     if (cachedResponse) {
+      // it is cached but we want to update it so request but not await
       fetchAndCache(e);
       return cachedResponse;
     }
 
+    // it was not cached yet so request and cache it
     return fetchAndCache(e);
   }
 
