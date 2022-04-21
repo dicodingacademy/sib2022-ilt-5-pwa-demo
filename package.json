@@ -1,0 +1,20 @@
+{
+  "name": "sib2022-ilt-5-pwa-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server ./src",
+    "start": "http-server ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "http-server": "^14.1.0",
+    "live-server": "^1.2.1"
+  }
+}
